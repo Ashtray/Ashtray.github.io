@@ -1,0 +1,22 @@
+markdown: kramdown
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: page/:num
+
+blog:
+    name: Ashtray				            # 博客名称
+    description:  烟灰缸'S BLOG                         # 博客描述
+    title: Ashtray'Blog                                   # 网页标题
+    url: Ashtray.github.io                                   # 博客地址
+    duoshuo: Ashtray                             # 多说ID
+    tongji:                                              # 百度统计ID
+    qiniu:                                               # 七牛云地址
+author:
+    name: 烟灰缸                                       # 作者名称
+    email: sa614168@mail.ustc.edu.cn                      # 邮箱地址
+    weibo:  http://weibo.com/u/1782991151                 # 微博地址
+    github: http://github.com/Ashtray/                # GitHub地址
+    douban:
+        name: pexcn                                      # 豆瓣地址名称
+        key: 0acf12df294d2460206d389d7be76d20            # 豆瓣API Key
