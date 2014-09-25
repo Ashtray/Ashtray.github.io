@@ -15,7 +15,7 @@ description: The Internet's Own Boy:The Story of Aaron Swartz
 
 
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/aaron_swartz__freedom_fighter_by_caq_qoq-d5rzbi8.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/Aaron_Swartz.jpg)
 
  <!-- more -->
 
@@ -61,7 +61,7 @@ _____
 
 --------------
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/23350anonMIT.png)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/23350anonMIT.png)
 
 ------
 
@@ -109,7 +109,7 @@ Aaron接着问：
 
 他为什么要决意离开 由于涉嫌非法侵入 JSTOR 论文数据库 他需要面临政府的刑事指控 而在**JSTOR**已经撤销诉讼的情况下 政府仍然要重刑以待 
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/1U22TK5-0.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/1U22TK5-0.jpg)
 
 Lessig 将 Aaron 的死归罪于美国政府:  
 	
@@ -122,7 +122,7 @@ Lessig 将 Aaron 的死归罪于美国政府:
 
 ---------------
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/1U22V609-1.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/1U22V609-1.jpg)
  
 --------------
 
@@ -133,7 +133,7 @@ Lessig 将 Aaron 的死归罪于美国政府:
 >世界上最有创造性的头脑 往往也孕育着毁灭自身的想法 或许 对于 Aaron 来说 他要做的事情已经做完了 而余生丧失自由的前景 看起来是如此荒唐 空寂 26岁 正是告别年轻的时候 他选择了有尊严的离开 
 
 -----------
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/tumblr_mz8zryznUp1qjkzz8o1_1280.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/tumblr_mz8zryznUp1qjkzz8o1_1280.jpg)
 
 
 -----------------

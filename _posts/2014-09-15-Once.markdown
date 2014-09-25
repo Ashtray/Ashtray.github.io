@@ -6,7 +6,7 @@ tags: 平淡
 description: 错过的美好
 ---
 
-![](res/cidai.jpg)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/cidai.jpg)  
 
 最近很是郁闷 莫名的烦躁   
 发现我再也不像以前那样的没心没肺  
@@ -34,7 +34,7 @@ description: 错过的美好
 
 偷偷看部电影 「曾经」  
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/254244_U105P28T3D1744530F326DT20071010172131.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/254244_U105P28T3D1744530F326DT20071010172131.jpg)
 
 很平淡 平淡的我都不知道怎么来描述它  
 那就借用豆瓣评论吧  

@@ -7,7 +7,7 @@ description: Rainy
 
 ---
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/223009nyenz6lc0bcmymcn.gif)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/223009nyenz6lc0bcmymcn.gif)  
   
 轰隆隆 窗外又下起了雨  
 

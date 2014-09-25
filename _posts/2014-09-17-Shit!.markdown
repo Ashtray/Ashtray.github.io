@@ -23,7 +23,7 @@ description: 错过的美好
 人车分离呀  
 妈妈再也不用担心我斜过马路啦  
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/weihai.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/weihai.jpg)
 
 ------------
 

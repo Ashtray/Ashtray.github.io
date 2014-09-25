@@ -5,7 +5,7 @@ category: 心情
 tags: Aloha
 description: 错过的美好
 ---
-![](res/dingshuji.jpg)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/dingshuji.jpg)  
 
 	啪啪啪  
 
@@ -96,7 +96,7 @@ NICE啊
 
 -------------
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/Res/tuding.jpg)
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/tuding.jpg)
 
 --------------------
 
