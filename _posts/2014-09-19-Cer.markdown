@@ -6,6 +6,7 @@ tags: Aloha
 description: 数字证书
 
 ---
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/anquanmao.jpg)  
 
 我听了很多大道理  
 却依然选不好我的课  
