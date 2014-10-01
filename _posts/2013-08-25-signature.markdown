@@ -7,7 +7,7 @@ description: linux下自建CA 根证书
 
 ---
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/res/223009nyenz6lc0bcmymcn.gif)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E8%AE%A4%E8%AF%81.png)  
   
 linux下自建CA 根证书 并给服务器颁发证书过程
 

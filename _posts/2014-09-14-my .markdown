@@ -7,7 +7,7 @@ description: 有一种鸟儿
 ---
 -------------
 
-
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E4%B8%80%E4%BB%A3%E5%AE%97%E5%B8%88.jpg)
 
 
 “我听别人说这世界上有一种服务器是没有关机键的,它只能够一直的运行呀运行呀,运行累了就在数据流里面睡一会,这种服务器一辈子只能关机一次,那一次就是它宕机的时候”       
