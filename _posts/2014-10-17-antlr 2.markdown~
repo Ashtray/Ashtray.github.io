@@ -1,26 +1,160 @@
 ---
 layout: post
-title: (一)使用 Antlr 开发领域语言(DSL)
+title: (二)使用 Antlr 开发领域语言(DSL)
 category: 笔迹
 tags: Aloha
 description: Antlr DSL
 
 ---
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E4%B8%87%E5%B2%81.png)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E7%A8%8B%E5%BA%8F%E7%8C%BF.png)  
 
-###Antlr 简介
+###简单的计算器实现
   
-ANTLR 语言识别的一个工具 (ANother Tool for Language Recognition ) 是一种语言工具，它提供了一个框架，可以通过包含 Java, C++, 或 C# 动作（action）的语法描述来构造语言识别器，编译器和解释器。   
+上一篇中我们已经安装配置好环境   
+这里写关于简单计算器的实现  
+ 
 
  <!-- more -->
 
+
 -----------
 
-计算机语言的解析已经变成了一种非常普遍的工作，在这方面的理论和工具经过近 40 年的发展已经相当成熟，使用 Antlr 等识别工具来识别，解析，构造编译器比手工编程更加容易，同时开发的程序也更易于维护。  
-语言识别的工具有很多种，比如大名鼎鼎的 Lex 和 YACC，Linux 中有他们的开源版本，分别是 Flex 和 Bison。在 Java 社区里，除了 Antlr 外，语言识别工具还有 JavaCC 和 SableCC 等。
+识别一个表达式并求值  
+语法文件：
+
+	grammar aaa;
+
+	@header {
+	import java.util.HashMap;
+	}
+
+	@members {
+	/** Map variable name to Integer object holding value */
+	HashMap memory = new HashMap();
+	 int i=0;
+	 double e;
+	}
+
+	prog:   (stat NEWLINE*)+ ;
+                
+	stat:   expr {if (i==0) System.out.println("表达式结果是------"+$expr.value);
+					else System.err.println("除数不能为 0 ");}
+    		| ID '=' expr {memory.put($ID.text, new Double($expr.value));}  
+			;
+
+	expr  returns [double value]
+	      :  e=multExpr {$value = $e.value;}
+ 	       (   '+' e=multExpr {$value += $e.value;}
+	       		|   '-' e=multExpr {$value -= $e.value;}
+  	        )*
+ 	   	   ;
+
+	multExpr  returns [double value]
+    		  :  e=atom {$value = $e.value;} 
+				('*' e=atom {$value *= $e.value;}
+				|'/' e=atom { double w=$e.value;
+					if ( w!=0 ) $value /= $e.value;
+	        			else {i=1;}}
+					)*
+  	 		 ; 
+
+	atom  returns [double  value]
+  	  :   INT {$value = Double.parseDouble($INT.text);}
+   	  |   ID
+   	     {
+    	    	double v = (double)memory.get($ID.text);
+     	   		if ( v.doubleValue()!=0 ) $value = v;
+     	   		else System.err.println("没有给其赋值 "+$ID.text);
+     	     }
+   	  |   '(' expr ')' {$value = $expr.value;}
+   	  ;
+
+	ID  :   ('a'..'z'|'A'..'Z')+ ;
+	INT :   '0'..'9'+ ;
+	NEWLINE:'\r'? '\n' ;
+	WS  :   (' '|'\t')+ {skip();} ;
+
+
+---------
+
+运行  
+
+	java  org.antlr.Tool aaa.g
+
+
+				 
+ 
+
+成功运行Antlr之后，将为我们生成 3 个文件，`aaa.tokens、aaaLexer.java`和`aaaParser.java`。其中`aaa.tokens`为文法中用到的各种符号做了数字化编号，我们可以不关注这个文件。`aaarLexer`是Antlr生成的词法分析器，`aaaParser`是Antlr 生成的语法分析器  
   
->和大多数语言识别工具一样，Antlr 使用上下文无关文法描述语言。最新的 Antlr 是一个基于 LL(*) 的语言识别器。在 Antlr 中通过解析用户自定义的上下文无关文法，自动生成词法分析器 (Lexer)、语法分析器 (Parser) 和树分析器 (Tree Parser)。  
+基于 Antlr 生成的词法分析器和语法分析器后，可以基于它们来验证我们的输入的表达式是否合法。我们需要调用 Antlr 的 API 完成以下 Java 程序， 如下所示：  
+
+----
+
+	package expr;
+	import java.util.Scanner;
+	import org.antlr.runtime.ANTLRStringStream;
+	import org.antlr.runtime.CommonTokenStream;
+
+
+	public class Test {
+		
+		 public static void main(String [] args) throws Exception { 
+			 
+			 while(true){
+				 
+				 Scanner in = new Scanner(System.in);
+				 String num = in.nextLine();
+				 run(num);}
+			 } 
+		 
+		 public static void run(String expr) throws Exception { 
+
+			 ANTLRStringStream in = new ANTLRStringStream(expr); 
+			    System.out.println(expr);
+			 aaaLexer lexer = new aaaLexer(in); 
+
+				 CommonTokenStream tokens = new CommonTokenStream(lexer); 
+
+				 aaaParser parser = new aaaParser(tokens); 
+
+				 parser.prog(); 	
+			 } 
+	}
+	
+
+---------------
+
+对每一个输入的字符串，我们构造一个 `ANTLRStringStream `流 in，用 in 构造词法分析器 lexer，词法分析的作用是产生记号，用词法分析器 lexer 构造一个记号流 tokens，然后再使用 tokens 构造语法分析器 parser，至此已经完成词法分析和语法分析的准备工作。最终调用语法分析器的规则 prog，完成对表达式的验证。详细的 Java 程序参考样例代码中的 `Test.java`  
+
+当输入合法的的表达式时，分析器没有任何输出，表示语言被分析器接受；当输入的表达式违反文法规则时，比如`“a + (b * 3”`，分析器输出 `line 0:-1 mismatched input '<EOF>' expecting ')'；`提示期待一个右括号却遇到了结束符号。  
+
+--------
+
+###文法定义的可视化	
+
+使用 `Antlrworks `打开 `aaa.g，Antlrworks `对每一个文法定义都做了可视化显示。整体的文法定义
+
+![](http://www.oschina.net/uploads/img/201103/08201507_wUQc.jpg)
+
+其中语法规则和词法记号的定义都有对应的图形表示方式。比如语法规则 atom 的图示形式 所示：
+
+语法规则 atom 的可视化
+
+![](http://www.oschina.net/uploads/img/201103/08201507_6GXg.jpg)
+
+词法记号 ID 的可视化
+
+![](http://www.oschina.net/uploads/img/201103/08201508_H2JJ.jpg)
+
+-------
+
+>使用 Antlrworks 还可以对语法分析树可视化，在 Antlrworks 的 GUI 窗口中，点击 `Run ->Debug, `在 Input Text 窗口中输入 `a+(2 + b)，Start Rule` 选择 prog, 然后完成调试，可以看到 a+(2 + b) 时的语法分析树，如图   
+a+(2+b) 的语法分析树  
+
+![](http://www.oschina.net/uploads/img/201103/08201508_BVyY.jpg)
+
 
 ------
 
