@@ -59,7 +59,6 @@ $(document).ready(function(){
 		"/res/img/bg/06.jpg",
 		"/res/img/bg/07.jpg",
 		"/res/img/bg/08.jpg",
-		"/res/img/bg/09.jpg",
 	];
 	images.sort(function() {
 		return Math.random() > 0.5 ? -1 : 1;
