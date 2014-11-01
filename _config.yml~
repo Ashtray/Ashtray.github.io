@@ -10,7 +10,7 @@ blog:
     title: Ashtray'Blog                                   # 网页标题
     url: Ashtray.github.io                                   # 博客地址
     duoshuo: Ashtray                             # 多说ID
-    tongji:                                              # 百度统计ID
+    tongji: Ashtray                                             # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
     name: 烟灰缸                                       # 作者名称
