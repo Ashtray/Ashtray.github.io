@@ -7,6 +7,8 @@ description: Bye
 
 ---
 
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E7%8E%9B%E4%B8%BD.png)
+
 我总会有种  
 
 	不就是XX嘛  有什么厉害的  我要是... 也会一样牛X哄哄的  
