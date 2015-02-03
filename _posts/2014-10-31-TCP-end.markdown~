@@ -41,7 +41,7 @@ St 『呐尼 你不按常理出牌啊』
 
 揮手過程圖：  
 
-![](http://www.seanyxie.com/wp-content/uploads/2014/04/20140410074734_35455.jpg)
+![](http://www.seanyxie.com/wp-content/uploads/2014/04/20140410074742_90411.jpg)
 
 
 第一次揮手：客户端给服务器发送TCP包 用来关闭客户端到服务器的数据传送 将标志位FIN和ACK置为1 序号为X=1 确认序号为Z=1   
