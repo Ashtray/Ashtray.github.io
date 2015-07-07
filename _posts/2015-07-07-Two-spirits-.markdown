@@ -11,7 +11,7 @@ description: nice
 
 
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/run-jump-fly.jpg)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E4%B8%80%E4%BB%A3%E5%AE%97%E5%B8%88.jpg)  
 
 
 给大家推荐款Asics跑鞋，对的，你没看错，就是这双屎黄色，外观丑爆，内心温柔，舒适度怎么说呢，那感觉，就像踩在热翔上o(∩∩)o...  
@@ -22,11 +22,11 @@ description: nice
 	
 	别问我怎么知道的，穿上就没脱.  
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/run-jump-fly.jpg)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/images/asics.png)  
 
 ----------------
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/run-jump-fly.jpg)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/images/two-spirits.jpg)  
 
 装了500M 的kindle PW2 与人生第二包烟^_^  两大精神安慰  
 
@@ -35,10 +35,10 @@ description: nice
 
 
 
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/run-jump-fly.jpg)  
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/images/paoxie.jpg)  
 
 
-记人生最后一次考试前~~~~~  
+		记人生最后一次考试前~~~~~  
 
 
 
@@ -54,15 +54,18 @@ description: nice
 
 这就是单身狗的一天。你问想不想谈恋爱？呵呵。哪有时间啊喂！  
 
->>
->>
->>
->>      
->>
->>
->>
+-  
+-  
+-  
+-      
+-  
+-  
+-        
+>>  
+  
 
-	才不是因为丑┴─┴︵╰（‵□′╰）  
+		
+		才不是因为丑  ┴─┴︵╰（‵□′╰）  
 
 --------------------
 
