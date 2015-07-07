@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 利器
+title: 两杆大烟枪！
 category: 心情
 tags: Bazinga
 description: nice
