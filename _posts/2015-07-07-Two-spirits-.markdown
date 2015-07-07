@@ -28,7 +28,7 @@ description: nice
 
 ![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/images/two-spirits.jpg)  
 
-装了500M 的kindle PW2 与人生第二包烟^_^  两大精神安慰  
+装了500M 的kindle PW2(还有本吉米多维奇！ 嗯 ) 与人生第二包烟^_^  两大精神安慰  
 
 
 当然还有跑跑跑带来的**多巴胺**  
