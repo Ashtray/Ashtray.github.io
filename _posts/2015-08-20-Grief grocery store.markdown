@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 解忧杂货店
-category: 技术
+category: 读/观后
 tags: Bazinga
 description: nice
 

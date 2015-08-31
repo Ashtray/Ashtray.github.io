@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 最初の梦想
-category: 笔迹
+category: 读/观后
 tags: Bazinga
 description: Bye
 

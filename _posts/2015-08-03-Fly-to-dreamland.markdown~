@@ -8,7 +8,7 @@ description: nice
 ---
 ----------
 
-
+![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/honey.png)  
 
 
 实习题目拿到，是个关于路由配置协议的实现，需要搭建一个web服务器端，当然，没有任何理由从头做起，牛顿他老人家也是站在巨人的后背上呢（摔~）。  
@@ -189,10 +189,6 @@ webpy作为服务器时，在当前目录下建立static目录，webpy会自动�
    		raise  
 	else:  
    		t.commit()   
-	
-            
-![](https://raw.githubusercontent.com/Ashtray/Ashtray.github.io/master/imag/%E4%B8%80%E4%BB%A3%E5%AE%97%E5%B8%88.jpg)  
-
 
 
 --------------------

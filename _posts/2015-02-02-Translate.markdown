@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 特别的翻译技巧
-category: 心情
+category: 翻译
 tags: Bazinga
 description: nice
 

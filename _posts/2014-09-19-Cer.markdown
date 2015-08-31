@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数字证书
-category: 笔迹
+category: 技术
 tags: Aloha
 description: 数字证书
 

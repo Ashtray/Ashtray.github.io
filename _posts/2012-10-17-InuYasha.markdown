@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 沙优那拉,InuYasha
-category: 心情
+category: 读/观后
 tags: 戈薇
 description: 戈薇
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: webpy
-category: 心情
+category: 技术
 tags: Bazinga
 description: nice
 

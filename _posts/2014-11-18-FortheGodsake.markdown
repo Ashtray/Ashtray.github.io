@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 上帝视角
-category: 笔迹
+category: 心情
 tags: Bazinga
 description: Bye
 
